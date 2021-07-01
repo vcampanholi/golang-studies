@@ -1,0 +1,27 @@
+* Executa o projeto *
+go run
+
+* Cria e inicializa o módulo da aplicação *
+go mod init {nome do módulo}
+
+--------------------------------------------------------------------
+* Executa os testes na classe *
+go test
+
+* Executa os testes em todo o projeto *
+go test ./...
+
+* Modo verboso  de testes *
+go test -v
+
+* Executa os testes com cobertura *
+go test --cover
+
+* Gera um TXT com o relatório de testes *
+go test --coverprofile {Nome do arquivo .txt}
+
+* Ler o arquivo TXT gerado pelo teste*
+go tool cover --func={Nome do arquivo .txt}
+
+* Gerar documento HTML com as linhas cobertas pelo teste na pasta TEMP*
+go tool cover --html=cobertura.txt
