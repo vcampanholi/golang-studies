@@ -25,3 +25,5 @@ go tool cover --func={Nome do arquivo .txt}
 
 * Gerar documento HTML com as linhas cobertas pelo teste na pasta TEMP*
 go tool cover --html=cobertura.txt
+
+
